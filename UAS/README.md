@@ -1,4 +1,4 @@
 # TANI-IT
-Tugas Kuliah Perancangan Website
+Tugas UAS
 Tema Pertanian
 Judul Seputar Teknologi Pertanian
