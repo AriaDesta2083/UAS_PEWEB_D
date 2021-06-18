@@ -1,0 +1,222 @@
+body {
+    margin:0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+
+.Head {
+    background-image:linear-gradient( #69c56ee0 ,#efc300d5);
+    margin: 0%;
+    height: 100px;
+}
+
+.Logo {
+    float: left;
+    padding-left:50px;
+    padding-top: 15px;
+    display: block;
+}
+.Menu {
+    float: right;
+    display: block;
+    padding-right: 150px ;
+    padding-top: 28px;
+}
+.Head a {
+    text-decoration: none;
+    font-family: Malgun Gothic;
+    color: #444341;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Head ul {
+    overflow: hidden;
+}
+.Head ul li {
+    float: left;
+    overflow: hidden;
+    margin-left: 40px;
+}
+#toggle {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background: #444;
+    text-align: center;
+}
+.search-box {
+    width: 100%;
+}
+.search-form button {
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #69C56E;
+    border-radius: 0 3px 3px 0;
+    border-width: 8px 8px 8px 8px;
+    border-color: transparent #69C56E transparent;
+}
+.search-form input {
+    display: inline-block;
+    width: 370px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #666;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    border-width: 8px 8px 8px 8px;
+    border-color: white;
+}
+
+.Body {
+    background-color: #f3f3f360;
+    height: 680px;
+}
+
+
+.DaftarBox {
+    margin: 20px;
+    float: right;
+    width: 28%;
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow: 10px 3px 6px #0202022f;
+}
+.Daftar {
+    padding: 10px;
+    margin: 10px;
+    font-family: Century751 No2 BT;
+    font-weight: bold;
+    color: #444341;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.DaftarBox h3 {
+    margin-top: 10px;
+    font-size: 27px;
+    font-family: Century751 No2 BT;
+    font-weight: bold;
+    color: #444341c5;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.DaftarBox .button {
+    float: right;
+    background-color: #69C56E;  
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px 10px 30px 0px;
+  }
+
+.box {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    outline-color: #4443414d  ;
+    border-bottom: 1.5px solid #444341;
+    font-family: Century751 No2 BT;
+    font-size: 14px;
+    color: #444341;
+    display: inline-block;
+  }
+.Daftar input {
+    background: transparent;
+}
+
+  .else {
+      font-size: 14px;
+  }
+
+
+.Judul {
+    width: 68%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.466);
+    box-shadow: 10px 3px 6px #0202022f;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100%;
+    display: block;
+}
+.Judul img {
+    float: left;
+    padding: 10px;
+}
+.Judul h1 {
+    margin-top: 40px;
+    text-shadow: 3px 3px 6px #3b3b3b49;
+    width: 33%;
+    float: left;
+    font-size: 60px;
+    font-family: Century751 No2 BT;
+    font-weight: bold;
+    color: #444341c5;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.kontener {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 20px;
+}
+
+.kontener a {
+    text-decoration: none;
+    font-family: Century751 No2 BT;
+    color: #444341;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px ;
+}
+.po {
+    width: 270px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 6px #2b2b2b6b;
+}
+
+.kontener th {
+    width: 300px;
+    height: 180px;
+    padding: 5px;
+}
+.kontener td {
+    text-align: center;
+    width: 290px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.39);
+
+}
+
+.cropped {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.logout {
+    text-decoration: none;
+    font-family: Century751 No2 BT;
+    font: bold;
+    float: right;
+    padding: 10px;
+}
+

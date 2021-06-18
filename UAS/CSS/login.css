@@ -1,0 +1,191 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+    
+.Head {
+    top:0%;         
+    position: absolute;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin: 0%;
+    height: 100px;  
+}
+
+.Logo {
+    border-radius: 10px;
+    padding: 12px;
+    float: left;
+    margin-left:50px;
+    margin-top: 15px;
+    display: block;
+}
+.Menu {
+    float: right;
+    display: block;
+    margin-right: 150px ;
+    margin-top: 40px;
+}
+.Head a {
+    text-decoration: none;
+    font-family: Malgun Gothic;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Head ul {
+    overflow: hidden;
+}
+.Head ul li {
+    float: left;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+#toggle {
+    top:100px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.459);
+    text-align: center;
+}
+.search-box {
+    width: 100%;
+}
+.search-form button {
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #69C56E;
+    border-radius: 0 3px 3px 0;
+    border-width: 8px 8px 8px 8px;
+    border-color: transparent #69C56E transparent;
+}
+.search-form input {
+    display: inline-block;
+    width: 370px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #666;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    border-width: 8px 8px 8px 8px;
+    border-color: white;
+}
+
+
+.DaftarBox {    
+    margin-top: 59px;
+    background-color: rgba(0, 0, 0, 0.459);
+    box-shadow: 10px 10px 10px #00000062;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.Daftar {
+    height: 100%;
+    padding: 10px;
+    font-family: Century751 No2 BT;
+    color: #444341;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.button { 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px ;
+    background: #69C56E;
+    border-radius:10px;
+    border-width: 18px 18px 18px 18px;
+    border-color: transparent #69C56E transparent;
+  }
+
+
+.box {
+    width: 100%;
+    padding: 8px 18px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #69C56E;
+    border: none;
+    outline-color: #4443414d  ;
+    border-bottom: 1.5px solid #444341;
+    font-family: Century751 No2 BT;
+    font-size: 15px;
+    color: #3f3f3f;
+    display: inline-block;
+}
+
+.Daftar label{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.Daftar h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    font-weight: bold;
+}
+.Daftar td{
+    width: 1000px;
+}
+
+.Daftar th{
+    width: 300px;
+}
+
+.else {
+    float: right;
+    text-align: right;
+    font-size: 15px;
+    outline: olive;
+    color: white;
+    padding-right: 50px;
+}
+
+.rm {
+    margin-left: 70px;
+}
+
+#Perempuan {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+#pria {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}

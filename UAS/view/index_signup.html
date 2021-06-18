@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+
+<div class="Head">
+        <img src="img/logo.png" alt="Ini Logo" class="Logo" width="300px" height="80px">
+        <ul class="Menu">
+            <li class="w3-xlarge"><a href="?page=home"><i class="fa fa-home"></i>HOME</a></li>
+            <li class="w3-xlarge"><a href="?page=index_content5">KABAR TERKINI</a></li>
+            <li class="w3-xlarge"><a href="javascript:openclose('toggle');"><i class="fa fa-search"></i></a></li>
+        </ul>
+</div>
+<div id="toggle" style="display:none">
+    <div class="search-box">
+        <form class="search-form ">
+        <input type="text" placeholder="Ketikkan kata kunci disini....">
+        <button type="submit">CARI</button>
+        </form>
+    </div>
+</div>
+<div class="Body">
+    <div class="DaftarBox">
+    <div class="Daftar">
+        <table border="0" >
+            <form action="" autocomplete="off" method="POST">
+                <th colspan="2"><h3> SIGN UP</h3></th>
+                <tr>
+                    <th><label for="nama">Nama</label></th>
+                    <td><input type="text" id="nama" name="nama" placeholder="Your name.." class="box" required></td>
+                </tr>
+                <tr>
+                    <th><label for="alamat">Alamat</label></th>
+                    <td><input type="text" id="alamat" name="alamat" class="box" required></td>
+                </tr>
+                <tr>
+                    <th> <label for="jk"> Gender </label> </th>
+                    <td colspan="2"><input type="radio" id ="pria" name="jk" require value="pria"><label for="pria" >Male</label>
+                    <input type="radio" id ="wanita" name="jk" require value="wanita"><label for="wanita">Female</label></td>
+                </tr>
+                <tr>
+                    <th><label for="Email">Email</label></th>
+                    <td><input type="email" name="email" id="email" placeholder="@mail.com" class="box" required></td>
+                </tr>
+                <tr>
+                    <th><label for="password">Password</label></th>
+                    <td><input type="password" id="password" name="password" class="box" required></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="checkbox" onclick="mypassword()"><label for="Show"> Show Password</label></td>
+                <tr>
+                <tr>
+                    <th colspan="2"><input type="submit" name="daftar" value="daftar" class="button"></th>
+                </tr>
+              </form>
+        </table>
+    </div>
+</div>
+<audio autoplay loop>
+    <source src="mp3/audio.mp3" type="audio/mpeg">
+</audio>
+<script src="JS/jquery-3.4.1.min.js"></script>
+<script src="JS/jquery.backstretch.min.js"></script>
+<script src="JS/script.js"></script>
+<script src="JS/Script2.js"></script>
+
+</body>
+</body>
+</html>
+
+    
